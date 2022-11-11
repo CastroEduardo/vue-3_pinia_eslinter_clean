@@ -48,11 +48,6 @@
     "nanoid": "^3.3.3",
     "minimist": "^1.2.6"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{ts,vue}": "eslint --fix"
   },
