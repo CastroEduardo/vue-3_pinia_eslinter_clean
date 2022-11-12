@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo command_exists
+echo "HEre"
 
 command_exists () {
   command -v "$1" >/dev/null 2>&1
